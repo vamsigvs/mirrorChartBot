@@ -1,0 +1,161 @@
+.react-chatbot-kit-chat-container {
+  position: relative;
+  /* width: 300px; */
+  max-width: 350px;
+  height: 98vh;
+  margin: auto;
+  border: #2898ec ridge;
+  
+}
+.user-message{
+  margin: 10px 0px 10px 40%;
+  align-self: right !important;
+  display: flex;
+  justify-content: end;
+  align-content: right;
+  background-color: burlywood;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: auto;
+  height: fit-content;
+
+}
+.bot-message{
+  padding: auto;
+  margin: 1px 40% 5px 0px;
+  align-self: left;
+  background-color: darkkhaki;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.bot-message-content{
+  margin: 1% 1% 1% 1%;
+  padding: 1% 1% 1% 10%;
+  font-size: medium;
+}
+.user-message-content{
+  margin: 1px 1px 1px 1px;
+  font-size: medium;
+  padding: 1% 1% 1% 10%;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  height: 500px;
+  background-color: #E8E8E8;
+  
+  border-radius: 5px;
+}
+
+.react-chatbot-kit-chat-header {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #efefef;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #514f4f;
+  padding: 12.5px;
+  font-weight: bold;
+}
+
+.react-chatbot-kit-chat-input-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.react-chatbot-kit-chat-message-container {
+  padding: 0 17.5px 10px 17.5px;
+  /* overflow: hidden; */
+  /* height: 424px; */
+  height: 85vh;
+  overflow: scroll;
+  background-color: #E8E8E8;
+}
+
+.react-chatbot-kit-chat-input {
+  width: 100%;
+  padding: 12.5px;
+  border: none;
+  font-size: 0.85rem;
+  border-top: 1px solid #d8d8d8;
+  border-bottom-left-radius: 5px;
+}
+
+.react-chatbot-kit-chat-input-form {
+  width: 100%;
+  display: flex;
+}
+
+.react-chatbot-kit-chat-input::placeholder {
+  color: #585858;
+}
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: #2898ec;
+  width: 100px;
+  border: none;
+  color: #fff;
+  border-bottom-right-radius: 5px;
+}
+
+
+.bot-profile{
+  background-color: #2898ec;
+  width: 100%;
+  border: none;
+  color: #fff;
+  height: 8vh;
+  border-bottom-right-radius: 5px;
+}
+.bot-profile-icon {
+  fill: #fff;
+  width: 15px;
+  margin: 0 auto;
+}
+.bot-name{
+  margin-left: 8px ;
+}
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.react-chatbot-kit-chat-btn-send-icon {
+  fill: #fff;
+  width: 15px;
+  margin: 0 auto;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2898ec; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2898ec; 
+}
+
+.header-chatapp{
+  height: 8vh;
+}
